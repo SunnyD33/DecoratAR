@@ -57,6 +57,7 @@ struct LoginScreen: View {
         }.background(
             Image("Room Background")
                 .resizable()
+                .padding(-38.0)
                 .opacity(0.8)
                 .aspectRatio(contentMode: .fill)
         ).edgesIgnoringSafeArea(.all)
