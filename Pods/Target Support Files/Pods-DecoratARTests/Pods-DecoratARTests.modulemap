@@ -1,0 +1,6 @@
+framework module Pods_DecoratARTests {
+  umbrella header "Pods-DecoratARTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

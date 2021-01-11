@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>300258480908-ep7a0j81hgbi1ftopmduipin3k7cu4il.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.300258480908-ep7a0j81hgbi1ftopmduipin3k7cu4il</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC79rNm5JH6h4n2OLiqHSEgIlYh-SijGIA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>300258480908</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Qoding-Inc.DecoratAR</string>
+	<key>PROJECT_ID</key>
+	<string>decoratar-34d95</string>
+	<key>STORAGE_BUCKET</key>
+	<string>decoratar-34d95.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:300258480908:ios:14cdc4dfb3a1add7ba6f29</string>
+</dict>
+</plist>
