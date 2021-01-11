@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		4F831FBB256B750B0070AFCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F831FBA256B750B0070AFCA /* Preview Assets.xcassets */; };
 		4F831FC6256B750B0070AFCA /* DecoratARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F831FC5256B750B0070AFCA /* DecoratARTests.swift */; };
 		4F831FD1256B750B0070AFCA /* DecoratARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F831FD0256B750B0070AFCA /* DecoratARUITests.swift */; };
+		4FAA57A925ABDB870025F2E3 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 4FAA57A825ABDB870025F2E3 /* FocusEntity */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FAA57A925ABDB870025F2E3 /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +151,9 @@
 			dependencies = (
 			);
 			name = DecoratAR;
+			packageProductDependencies = (
+				4FAA57A825ABDB870025F2E3 /* FocusEntity */,
+			);
 			productName = DecoratAR;
 			productReference = 4F831FAE256B750A0070AFCA /* DecoratAR.app */;
 			productType = "com.apple.product-type.application";
@@ -220,6 +225,9 @@
 				Base,
 			);
 			mainGroup = 4F831FA5256B750A0070AFCA;
+			packageReferences = (
+				4FAA57A725ABDB870025F2E3 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
 			productRefGroup = 4F831FAF256B750A0070AFCA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -582,6 +590,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4FAA57A725ABDB870025F2E3 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4FAA57A825ABDB870025F2E3 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FAA57A725ABDB870025F2E3 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4F831FA6256B750A0070AFCA /* Project object */;
 }
