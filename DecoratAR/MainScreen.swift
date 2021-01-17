@@ -52,7 +52,6 @@ struct ARViewContainer: UIViewRepresentable {
     func makeUIView(context: Context) -> ARView {
         let arView = CustomView(frame: .zero)
         return arView
-        
     }
     
     func updateUIView(_ uiView: ARView, context: Context) {
@@ -60,14 +59,23 @@ struct ARViewContainer: UIViewRepresentable {
             if let modelEntity = model.modelEntity {
                 print("DEBUG: adding model to scene - \(model.modelName)")
                 let anchorEntity = AnchorEntity(plane: .any)
-                anchorEntity.addChild(modelEntity.clone(recursive: true))
-                
+                anchorEntity.addChild(modelEntity)
+                anchorEntity.name = "ModelAnchor"
                 uiView.scene.addAnchor(anchorEntity)
+                
+        //MARK: Functionality to be able to transform the models in the scene after they have been placed
+                //Collision shapes needed to be able to use gestures after model has been placed in the scene
+                modelEntity.generateCollisionShapes(recursive: true)
+                
+                //Add gestures to be able to move the objects in the scene
+                uiView.installGestures([.all], for: modelEntity)
+                
+        //MARK: Calls to the objective C function that allows for objects to be removed from the scene on long press
+                uiView.removeObject()
+                
             } else {
                 print("DEBUG: Unable to load modelEntity to scene for - \(model.modelName)")
             }
-            
-            
             
             DispatchQueue.main.async {
                 self.modelConfirmedForPlacement = nil
@@ -75,6 +83,25 @@ struct ARViewContainer: UIViewRepresentable {
         }
     }
     
+}
+
+//MARK: Functionality to remove objects from the scene
+extension ARView {
+    func removeObject() {
+        let longPress = UILongPressGestureRecognizer(target: self, action: #selector(handleLongPress(recognizer:)))
+        self.addGestureRecognizer(longPress)
+    }
+    
+    @objc func handleLongPress(recognizer:UILongPressGestureRecognizer) {
+        let screenLocation = recognizer.location(in: self)
+        
+        if let entity = self.entity(at: screenLocation) {
+            if let anchorEntity = entity.anchor, anchorEntity.name == "ModelAnchor" {
+                anchorEntity.removeFromParent()
+                print("Removed anchor")
+            }
+        }
+    }
 }
 
 //MARK: Added from Swift Package to create a focal point for the user when placing an object
