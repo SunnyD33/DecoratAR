@@ -98,7 +98,7 @@ extension ARView {
         if let entity = self.entity(at: screenLocation) {
             if let anchorEntity = entity.anchor, anchorEntity.name == "ModelAnchor" {
                 anchorEntity.removeFromParent()
-                print("Removed anchor")
+                print("Model removed")
             }
         }
     }
