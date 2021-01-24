@@ -168,7 +168,7 @@ struct ModelPickerView: View {
                             .aspectRatio(1/1, contentMode: .fit)
                             .background(Color.white)
                             .cornerRadius(12)
-                        Text("\(self.models[index].modelName)")
+                        //Text("\(self.models[index].modelName)")
                     })
                 }
             }
