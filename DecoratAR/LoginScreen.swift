@@ -9,6 +9,7 @@ import SwiftUI
 struct LoginScreen: View {
     @State var userEmail = ""
     @State var userPassword = ""
+    @State var showSignUpScreen = false
     var body: some View{
         VStack(spacing: 15) {
             Spacer()
@@ -21,6 +22,8 @@ struct LoginScreen: View {
                 Image(systemName: "envelope")
                     .foregroundColor(.gray)
                 TextField("Email", text: $userEmail)
+                    .disableAutocorrection(true)
+                    .foregroundColor(.black)
             }
             .padding(.all, 20)
             .background(Color.white)
@@ -30,6 +33,7 @@ struct LoginScreen: View {
                 Image(systemName: "lock")
                     .foregroundColor(.gray)
                 SecureField("Password", text: $userPassword)
+                    .foregroundColor(.black)
             }
             .padding(.all, 20)
             .background(Color.white)
@@ -44,11 +48,16 @@ struct LoginScreen: View {
             .background(Color.blue.opacity(0.8))
             .cornerRadius(8)
             .padding(.horizontal, 100)
-            Button(action:{}) {
+            Button(action:{
+                self.showSignUpScreen.toggle()
+            }) {
                 Text("Sign Up")
                     .foregroundColor(.white)
                     .font(.system(size: 24, weight: .medium))
-            }.frame(maxWidth: .infinity)
+            }.sheet(isPresented: $showSignUpScreen, content: {
+                SignUpScreen()
+            })
+            .frame(maxWidth: .infinity)
             .padding(.vertical, 20)
             .background(Color.green.opacity(0.8))
             .cornerRadius(8)

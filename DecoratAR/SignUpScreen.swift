@@ -41,6 +41,7 @@ struct SignUpScreen: View {
                 Image(systemName: "envelope")
                     .foregroundColor(.gray)
                 TextField("Email", text: $userEmail)
+                    .disableAutocorrection(true)
             }
             .padding(.all, 20)
             .background(Color.white)
@@ -50,6 +51,7 @@ struct SignUpScreen: View {
                 Image(systemName: "lock")
                     .foregroundColor(.gray)
                 SecureField("Password", text: $userPassword)
+                    .foregroundColor(.black)
             }
             .padding(.all, 20)
             .background(Color.white)
@@ -59,6 +61,7 @@ struct SignUpScreen: View {
                 Image(systemName: "lock")
                     .foregroundColor(.gray)
                 TextField("Confirm Password", text:$passwordConfirm)
+                    .foregroundColor(.black)
             }
             .padding(.all, 20)
             .background(Color.white)
