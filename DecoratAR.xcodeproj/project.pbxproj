@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F1EA7E225BE42D100891688 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1EA7E125BE42D100891688 /* SignUpScreen.swift */; };
 		4F831FB2256B750A0070AFCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F831FB1256B750A0070AFCA /* AppDelegate.swift */; };
 		4F831FB4256B750A0070AFCA /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F831FB3256B750A0070AFCA /* LoginScreen.swift */; };
 		4F831FB6256B750A0070AFCA /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 4F831FB5256B750A0070AFCA /* Experience.rcproject */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		2DFF188DF9F8955519C8D363 /* Pods-DecoratAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecoratAR.release.xcconfig"; path = "Target Support Files/Pods-DecoratAR/Pods-DecoratAR.release.xcconfig"; sourceTree = "<group>"; };
+		4F1EA7E125BE42D100891688 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
 		4F831FAE256B750A0070AFCA /* DecoratAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecoratAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F831FB1256B750A0070AFCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F831FB3256B750A0070AFCA /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			children = (
 				4F831FB1256B750A0070AFCA /* AppDelegate.swift */,
 				4F831FB3256B750A0070AFCA /* LoginScreen.swift */,
+				4F1EA7E125BE42D100891688 /* SignUpScreen.swift */,
 				4F831FB5256B750A0070AFCA /* Experience.rcproject */,
 				4F831FB7256B750B0070AFCA /* Assets.xcassets */,
 				4F831FBC256B750B0070AFCA /* Info.plist */,
@@ -175,7 +178,6 @@
 				8D3242ACCDB0B0165C5A4ECB /* Pods-DecoratARTests.debug.xcconfig */,
 				7D07053BA5F206DDF08FD25D /* Pods-DecoratARTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -422,6 +424,7 @@
 				4F831FB4256B750A0070AFCA /* LoginScreen.swift in Sources */,
 				4F831FB2256B750A0070AFCA /* AppDelegate.swift in Sources */,
 				4F831FB6256B750A0070AFCA /* Experience.rcproject in Sources */,
+				4F1EA7E225BE42D100891688 /* SignUpScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
