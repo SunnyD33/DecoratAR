@@ -25,7 +25,7 @@ struct LoginScreen: View {
             .padding(.all, 20)
             .background(Color.white)
             .cornerRadius(8)
-            .padding(.horizontal, 50)
+            .padding(.horizontal, 90)
             HStack{
                 Image(systemName: "lock")
                     .foregroundColor(.gray)
@@ -34,7 +34,7 @@ struct LoginScreen: View {
             .padding(.all, 20)
             .background(Color.white)
             .cornerRadius(8)
-            .padding(.horizontal, 50)
+            .padding(.horizontal, 90)
             Button(action:{}) {
                 Text("Sign In")
                     .foregroundColor(.white)
