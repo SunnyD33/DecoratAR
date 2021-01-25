@@ -76,15 +76,6 @@ struct SignUpScreen: View {
             .background(Color.blue.opacity(0.8))
             .cornerRadius(8)
             .padding(.horizontal, 150)
-            Button(action:{}) {
-                Text("Cancel")
-                    .foregroundColor(.white)
-                    .font(.system(size: 24, weight: .medium))
-            }.frame(maxWidth: .infinity)
-            .padding(.vertical, 20)
-            .background(Color.red.opacity(0.8))
-            .cornerRadius(8)
-            .padding(.horizontal, 150)
         }.background(
             Image("Room Background")
                 .resizable()

@@ -10,6 +10,7 @@ struct LoginScreen: View {
     @State var userEmail = ""
     @State var userPassword = ""
     @State var showSignUpScreen = false
+    
     var body: some View{
         VStack(spacing: 15) {
             Spacer()
