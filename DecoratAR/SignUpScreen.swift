@@ -27,7 +27,7 @@ struct SignUpScreen: View {
             .padding(.all, 20)
             .background(Color.white)
             .cornerRadius(8)
-            .padding(.horizontal, 90)
+            .padding(.horizontal, 150)
             HStack{
                 Image(systemName: "person")
                     .foregroundColor(.gray)
@@ -36,7 +36,7 @@ struct SignUpScreen: View {
             .padding(.all, 20)
             .background(Color.white)
             .cornerRadius(8)
-            .padding(.horizontal, 90)
+            .padding(.horizontal, 150)
             HStack{
                 Image(systemName: "envelope")
                     .foregroundColor(.gray)
@@ -46,7 +46,7 @@ struct SignUpScreen: View {
             .padding(.all, 20)
             .background(Color.white)
             .cornerRadius(8)
-            .padding(.horizontal, 90)
+            .padding(.horizontal, 150)
             HStack{
                 Image(systemName: "lock")
                     .foregroundColor(.gray)
@@ -56,7 +56,7 @@ struct SignUpScreen: View {
             .padding(.all, 20)
             .background(Color.white)
             .cornerRadius(8)
-            .padding(.horizontal, 90)
+            .padding(.horizontal, 150)
             HStack{
                 Image(systemName: "lock")
                     .foregroundColor(.gray)
@@ -66,7 +66,7 @@ struct SignUpScreen: View {
             .padding(.all, 20)
             .background(Color.white)
             .cornerRadius(8)
-            .padding(.horizontal, 90)
+            .padding(.horizontal, 150)
             Button(action:{}) {
                 Text("Create Account")
                     .foregroundColor(.white)
@@ -75,7 +75,7 @@ struct SignUpScreen: View {
             .padding(.vertical, 20)
             .background(Color.blue.opacity(0.8))
             .cornerRadius(8)
-            .padding(.horizontal, 150)
+            .padding(.horizontal, 200)
         }.background(
             Image("Room Background")
                 .resizable()
