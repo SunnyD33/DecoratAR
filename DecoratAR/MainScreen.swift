@@ -48,6 +48,7 @@ struct ContentView : View {
 
 struct ARViewContainer: UIViewRepresentable {
     @Binding var modelConfirmedForPlacement: Model?
+    @State private var showingDeleteAlert = false
     
     func makeUIView(context: Context) -> ARView {
         let arView = CustomView(frame: .zero)
@@ -82,7 +83,6 @@ struct ARViewContainer: UIViewRepresentable {
             }
         }
     }
-    
 }
 
 //MARK: Functionality to remove objects from the scene
