@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import Firebase
+
 struct LoginScreen: View {
     @State var userEmail = ""
     @State var userPassword = ""
