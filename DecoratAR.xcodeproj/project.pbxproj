@@ -3,34 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-<<<<<<< HEAD
-	objectVersion = 51;
-=======
 	objectVersion = 52;
->>>>>>> MainScreen
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4F1EA7E225BE42D100891688 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1EA7E125BE42D100891688 /* SignUpScreen.swift */; };
 		4F831FB2256B750A0070AFCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F831FB1256B750A0070AFCA /* AppDelegate.swift */; };
-<<<<<<< HEAD
 		4F831FB4256B750A0070AFCA /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F831FB3256B750A0070AFCA /* LoginScreen.swift */; };
-=======
 		4F831FB4256B750A0070AFCA /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F831FB3256B750A0070AFCA /* MainScreen.swift */; };
->>>>>>> MainScreen
 		4F831FB6256B750A0070AFCA /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 4F831FB5256B750A0070AFCA /* Experience.rcproject */; };
 		4F831FB8256B750B0070AFCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F831FB7256B750B0070AFCA /* Assets.xcassets */; };
 		4F831FBB256B750B0070AFCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F831FBA256B750B0070AFCA /* Preview Assets.xcassets */; };
 		4F831FC6256B750B0070AFCA /* DecoratARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F831FC5256B750B0070AFCA /* DecoratARTests.swift */; };
 		4F831FD1256B750B0070AFCA /* DecoratARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F831FD0256B750B0070AFCA /* DecoratARUITests.swift */; };
-<<<<<<< HEAD
 		4FDA320725ABFAFF0027B080 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FDA320625ABFAFF0027B080 /* GoogleService-Info.plist */; };
 		4FDA320825ABFAFF0027B080 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FDA320625ABFAFF0027B080 /* GoogleService-Info.plist */; };
 		4FDA320925ABFAFF0027B080 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FDA320625ABFAFF0027B080 /* GoogleService-Info.plist */; };
 		77072EE7E2ACBE8793EFCE40 /* Pods_DecoratAR_DecoratARUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969D0980BEDF9A4CF10158CD /* Pods_DecoratAR_DecoratARUITests.framework */; };
 		8987556491E3EB0F61E26643 /* Pods_DecoratARTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAD830525AED5BE6BD97F98 /* Pods_DecoratARTests.framework */; };
 		91CE4AC026C80C16E2F860A2 /* Pods_DecoratAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C504E0AAA76306E2985D65 /* Pods_DecoratAR.framework */; };
-=======
 		4FAA57B825ABE0380025F2E3 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 4FAA57B725ABE0380025F2E3 /* FocusEntity */; };
 		4FAA57BD25ABE4370025F2E3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAA57BC25ABE4370025F2E3 /* Model.swift */; };
 		4FAA57CC25ABE6900025F2E3 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4FAA57C525ABE68D0025F2E3 /* toy_biplane.usdz */; };
@@ -40,7 +31,6 @@
 		4FAA57D025ABE6900025F2E3 /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4FAA57C925ABE68F0025F2E3 /* tv_retro.usdz */; };
 		4FAA57D125ABE6900025F2E3 /* flower_tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4FAA57CA25ABE6900025F2E3 /* flower_tulip.usdz */; };
 		4FAA57D225ABE6900025F2E3 /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4FAA57CB25ABE6900025F2E3 /* toy_robot_vintage.usdz */; };
->>>>>>> MainScreen
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,11 +55,8 @@
 		4F1EA7E125BE42D100891688 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
 		4F831FAE256B750A0070AFCA /* DecoratAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecoratAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F831FB1256B750A0070AFCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		4F831FB3256B750A0070AFCA /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
-=======
 		4F831FB3256B750A0070AFCA /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
->>>>>>> MainScreen
 		4F831FB5256B750A0070AFCA /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		4F831FB7256B750B0070AFCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F831FBA256B750B0070AFCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -80,7 +67,6 @@
 		4F831FCC256B750B0070AFCA /* DecoratARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecoratARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F831FD0256B750B0070AFCA /* DecoratARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratARUITests.swift; sourceTree = "<group>"; };
 		4F831FD2256B750B0070AFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		4FDA320625ABFAFF0027B080 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7D07053BA5F206DDF08FD25D /* Pods-DecoratARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecoratARTests.release.xcconfig"; path = "Target Support Files/Pods-DecoratARTests/Pods-DecoratARTests.release.xcconfig"; sourceTree = "<group>"; };
 		8D3242ACCDB0B0165C5A4ECB /* Pods-DecoratARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecoratARTests.debug.xcconfig"; path = "Target Support Files/Pods-DecoratARTests/Pods-DecoratARTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,7 +76,6 @@
 		F5C504E0AAA76306E2985D65 /* Pods_DecoratAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DecoratAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80940D09AEB05D9CA7B9A8C /* Pods-DecoratAR-DecoratARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecoratAR-DecoratARUITests.debug.xcconfig"; path = "Target Support Files/Pods-DecoratAR-DecoratARUITests/Pods-DecoratAR-DecoratARUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F897DFCB6FF7F14E764EA898 /* Pods-DecoratAR-DecoratARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecoratAR-DecoratARUITests.release.xcconfig"; path = "Target Support Files/Pods-DecoratAR-DecoratARUITests/Pods-DecoratAR-DecoratARUITests.release.xcconfig"; sourceTree = "<group>"; };
-=======
 		4FAA57BC25ABE4370025F2E3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		4FAA57C525ABE68D0025F2E3 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
 		4FAA57C625ABE68E0025F2E3 /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = gramophone.usdz; sourceTree = "<group>"; };
@@ -99,7 +84,6 @@
 		4FAA57C925ABE68F0025F2E3 /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
 		4FAA57CA25ABE6900025F2E3 /* flower_tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower_tulip.usdz; sourceTree = "<group>"; };
 		4FAA57CB25ABE6900025F2E3 /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_robot_vintage.usdz; sourceTree = "<group>"; };
->>>>>>> MainScreen
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				91CE4AC026C80C16E2F860A2 /* Pods_DecoratAR.framework in Frameworks */,
-=======
 				4FAA57B825ABE0380025F2E3 /* FocusEntity in Frameworks */,
->>>>>>> MainScreen
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,13 +142,10 @@
 			children = (
 				4FAA57C425ABE6560025F2E3 /* Model */,
 				4F831FB1256B750A0070AFCA /* AppDelegate.swift */,
-<<<<<<< HEAD
 				4F831FB3256B750A0070AFCA /* LoginScreen.swift */,
 				4F1EA7E125BE42D100891688 /* SignUpScreen.swift */,
-=======
 				4F831FB3256B750A0070AFCA /* MainScreen.swift */,
 				4FAA57BC25ABE4370025F2E3 /* Model.swift */,
->>>>>>> MainScreen
 				4F831FB5256B750A0070AFCA /* Experience.rcproject */,
 				4F831FB7256B750B0070AFCA /* Assets.xcassets */,
 				4F831FBC256B750B0070AFCA /* Info.plist */,
@@ -203,7 +181,6 @@
 			path = DecoratARUITests;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
 		93B262BC1E32C94285C13331 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,7 +202,6 @@
 				7D07053BA5F206DDF08FD25D /* Pods-DecoratARTests.release.xcconfig */,
 			);
 			path = Pods;
-=======
 		4FAA57C425ABE6560025F2E3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,7 +214,6 @@
 				4FAA57C925ABE68F0025F2E3 /* tv_retro.usdz */,
 			);
 			path = Model;
->>>>>>> MainScreen
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,14 +335,11 @@
 				4FAA57D225ABE6900025F2E3 /* toy_robot_vintage.usdz in Resources */,
 				4F831FBB256B750B0070AFCA /* Preview Assets.xcassets in Resources */,
 				4F831FB8256B750B0070AFCA /* Assets.xcassets in Resources */,
-<<<<<<< HEAD
 				4FDA320725ABFAFF0027B080 /* GoogleService-Info.plist in Resources */,
-=======
 				4FAA57D025ABE6900025F2E3 /* tv_retro.usdz in Resources */,
 				4FAA57CD25ABE6900025F2E3 /* gramophone.usdz in Resources */,
 				4FAA57CE25ABE6900025F2E3 /* toy_car.usdz in Resources */,
 				4FAA57CF25ABE6900025F2E3 /* toy_drummer.usdz in Resources */,
->>>>>>> MainScreen
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,17 +469,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				4F831FB4256B750A0070AFCA /* LoginScreen.swift in Sources */,
 				4F831FB2256B750A0070AFCA /* AppDelegate.swift in Sources */,
 				4F831FB6256B750A0070AFCA /* Experience.rcproject in Sources */,
 				4F1EA7E225BE42D100891688 /* SignUpScreen.swift in Sources */,
-=======
 				4F831FB4256B750A0070AFCA /* MainScreen.swift in Sources */,
 				4F831FB2256B750A0070AFCA /* AppDelegate.swift in Sources */,
 				4F831FB6256B750A0070AFCA /* Experience.rcproject in Sources */,
 				4FAA57BD25ABE4370025F2E3 /* Model.swift in Sources */,
->>>>>>> MainScreen
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
