@@ -25,7 +25,11 @@
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
+<<<<<<< HEAD
 	<string>LoginScreen</string>
+=======
+	<string>MainScreen</string>
+>>>>>>> MainScreen
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
