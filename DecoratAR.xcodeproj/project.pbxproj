@@ -3,17 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F1EA7E225BE42D100891688 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1EA7E125BE42D100891688 /* SignUpScreen.swift */; };
 		4F831FB2256B750A0070AFCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F831FB1256B750A0070AFCA /* AppDelegate.swift */; };
-		4F831FB4256B750A0070AFCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F831FB3256B750A0070AFCA /* ContentView.swift */; };
+		4F831FB4256B750A0070AFCA /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F831FB3256B750A0070AFCA /* LoginScreen.swift */; };
 		4F831FB6256B750A0070AFCA /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 4F831FB5256B750A0070AFCA /* Experience.rcproject */; };
 		4F831FB8256B750B0070AFCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F831FB7256B750B0070AFCA /* Assets.xcassets */; };
 		4F831FBB256B750B0070AFCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F831FBA256B750B0070AFCA /* Preview Assets.xcassets */; };
 		4F831FC6256B750B0070AFCA /* DecoratARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F831FC5256B750B0070AFCA /* DecoratARTests.swift */; };
 		4F831FD1256B750B0070AFCA /* DecoratARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F831FD0256B750B0070AFCA /* DecoratARUITests.swift */; };
+		4FDA320725ABFAFF0027B080 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FDA320625ABFAFF0027B080 /* GoogleService-Info.plist */; };
+		4FDA320825ABFAFF0027B080 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FDA320625ABFAFF0027B080 /* GoogleService-Info.plist */; };
+		4FDA320925ABFAFF0027B080 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FDA320625ABFAFF0027B080 /* GoogleService-Info.plist */; };
+		77072EE7E2ACBE8793EFCE40 /* Pods_DecoratAR_DecoratARUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969D0980BEDF9A4CF10158CD /* Pods_DecoratAR_DecoratARUITests.framework */; };
+		8987556491E3EB0F61E26643 /* Pods_DecoratARTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAD830525AED5BE6BD97F98 /* Pods_DecoratARTests.framework */; };
+		91CE4AC026C80C16E2F860A2 /* Pods_DecoratAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C504E0AAA76306E2985D65 /* Pods_DecoratAR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DFF188DF9F8955519C8D363 /* Pods-DecoratAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecoratAR.release.xcconfig"; path = "Target Support Files/Pods-DecoratAR/Pods-DecoratAR.release.xcconfig"; sourceTree = "<group>"; };
+		4F1EA7E125BE42D100891688 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
 		4F831FAE256B750A0070AFCA /* DecoratAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecoratAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F831FB1256B750A0070AFCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4F831FB3256B750A0070AFCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F831FB3256B750A0070AFCA /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		4F831FB5256B750A0070AFCA /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		4F831FB7256B750B0070AFCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F831FBA256B750B0070AFCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -47,6 +56,15 @@
 		4F831FCC256B750B0070AFCA /* DecoratARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecoratARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F831FD0256B750B0070AFCA /* DecoratARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratARUITests.swift; sourceTree = "<group>"; };
 		4F831FD2256B750B0070AFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FDA320625ABFAFF0027B080 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7D07053BA5F206DDF08FD25D /* Pods-DecoratARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecoratARTests.release.xcconfig"; path = "Target Support Files/Pods-DecoratARTests/Pods-DecoratARTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D3242ACCDB0B0165C5A4ECB /* Pods-DecoratARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecoratARTests.debug.xcconfig"; path = "Target Support Files/Pods-DecoratARTests/Pods-DecoratARTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FAD830525AED5BE6BD97F98 /* Pods_DecoratARTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DecoratARTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		969D0980BEDF9A4CF10158CD /* Pods_DecoratAR_DecoratARUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DecoratAR_DecoratARUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F96D549FD7BECD100480EF /* Pods-DecoratAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecoratAR.debug.xcconfig"; path = "Target Support Files/Pods-DecoratAR/Pods-DecoratAR.debug.xcconfig"; sourceTree = "<group>"; };
+		F5C504E0AAA76306E2985D65 /* Pods_DecoratAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DecoratAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80940D09AEB05D9CA7B9A8C /* Pods-DecoratAR-DecoratARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecoratAR-DecoratARUITests.debug.xcconfig"; path = "Target Support Files/Pods-DecoratAR-DecoratARUITests/Pods-DecoratAR-DecoratARUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F897DFCB6FF7F14E764EA898 /* Pods-DecoratAR-DecoratARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecoratAR-DecoratARUITests.release.xcconfig"; path = "Target Support Files/Pods-DecoratAR-DecoratARUITests/Pods-DecoratAR-DecoratARUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91CE4AC026C80C16E2F860A2 /* Pods_DecoratAR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8987556491E3EB0F61E26643 /* Pods_DecoratARTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77072EE7E2ACBE8793EFCE40 /* Pods_DecoratAR_DecoratARUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 				4F831FC4256B750B0070AFCA /* DecoratARTests */,
 				4F831FCF256B750B0070AFCA /* DecoratARUITests */,
 				4F831FAF256B750A0070AFCA /* Products */,
+				9E9648C6F674972C52CD19BF /* Pods */,
+				93B262BC1E32C94285C13331 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +121,12 @@
 			isa = PBXGroup;
 			children = (
 				4F831FB1256B750A0070AFCA /* AppDelegate.swift */,
-				4F831FB3256B750A0070AFCA /* ContentView.swift */,
+				4F831FB3256B750A0070AFCA /* LoginScreen.swift */,
+				4F1EA7E125BE42D100891688 /* SignUpScreen.swift */,
 				4F831FB5256B750A0070AFCA /* Experience.rcproject */,
 				4F831FB7256B750B0070AFCA /* Assets.xcassets */,
 				4F831FBC256B750B0070AFCA /* Info.plist */,
+				4FDA320625ABFAFF0027B080 /* GoogleService-Info.plist */,
 				4F831FB9256B750B0070AFCA /* Preview Content */,
 			);
 			path = DecoratAR;
@@ -133,6 +158,29 @@
 			path = DecoratARUITests;
 			sourceTree = "<group>";
 		};
+		93B262BC1E32C94285C13331 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5C504E0AAA76306E2985D65 /* Pods_DecoratAR.framework */,
+				969D0980BEDF9A4CF10158CD /* Pods_DecoratAR_DecoratARUITests.framework */,
+				8FAD830525AED5BE6BD97F98 /* Pods_DecoratARTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E9648C6F674972C52CD19BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3F96D549FD7BECD100480EF /* Pods-DecoratAR.debug.xcconfig */,
+				2DFF188DF9F8955519C8D363 /* Pods-DecoratAR.release.xcconfig */,
+				F80940D09AEB05D9CA7B9A8C /* Pods-DecoratAR-DecoratARUITests.debug.xcconfig */,
+				F897DFCB6FF7F14E764EA898 /* Pods-DecoratAR-DecoratARUITests.release.xcconfig */,
+				8D3242ACCDB0B0165C5A4ECB /* Pods-DecoratARTests.debug.xcconfig */,
+				7D07053BA5F206DDF08FD25D /* Pods-DecoratARTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F831FD5256B750B0070AFCA /* Build configuration list for PBXNativeTarget "DecoratAR" */;
 			buildPhases = (
+				82DD261DA9373D60DA6192B4 /* [CP] Check Pods Manifest.lock */,
 				4F831FAA256B750A0070AFCA /* Sources */,
 				4F831FAB256B750A0070AFCA /* Frameworks */,
 				4F831FAC256B750A0070AFCA /* Resources */,
+				7C0FB39BB7EDBB8E06A9B9B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F831FD8256B750B0070AFCA /* Build configuration list for PBXNativeTarget "DecoratARTests" */;
 			buildPhases = (
+				33500312E2BF0836F62C4061 /* [CP] Check Pods Manifest.lock */,
 				4F831FBD256B750B0070AFCA /* Sources */,
 				4F831FBE256B750B0070AFCA /* Frameworks */,
 				4F831FBF256B750B0070AFCA /* Resources */,
@@ -175,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F831FDB256B750B0070AFCA /* Build configuration list for PBXNativeTarget "DecoratARUITests" */;
 			buildPhases = (
+				8938026F7D188488010842F1 /* [CP] Check Pods Manifest.lock */,
 				4F831FC8256B750B0070AFCA /* Sources */,
 				4F831FC9256B750B0070AFCA /* Frameworks */,
 				4F831FCA256B750B0070AFCA /* Resources */,
+				83A8F13C8459CA8142BDD58F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,6 +291,7 @@
 			files = (
 				4F831FBB256B750B0070AFCA /* Preview Assets.xcassets in Resources */,
 				4F831FB8256B750B0070AFCA /* Assets.xcassets in Resources */,
+				4FDA320725ABFAFF0027B080 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FDA320825ABFAFF0027B080 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,19 +307,124 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FDA320925ABFAFF0027B080 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33500312E2BF0836F62C4061 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DecoratARTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C0FB39BB7EDBB8E06A9B9B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DecoratAR/Pods-DecoratAR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DecoratAR/Pods-DecoratAR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DecoratAR/Pods-DecoratAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82DD261DA9373D60DA6192B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DecoratAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83A8F13C8459CA8142BDD58F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DecoratAR-DecoratARUITests/Pods-DecoratAR-DecoratARUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DecoratAR-DecoratARUITests/Pods-DecoratAR-DecoratARUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DecoratAR-DecoratARUITests/Pods-DecoratAR-DecoratARUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8938026F7D188488010842F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DecoratAR-DecoratARUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4F831FAA256B750A0070AFCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F831FB4256B750A0070AFCA /* ContentView.swift in Sources */,
+				4F831FB4256B750A0070AFCA /* LoginScreen.swift in Sources */,
 				4F831FB2256B750A0070AFCA /* AppDelegate.swift in Sources */,
 				4F831FB6256B750A0070AFCA /* Experience.rcproject in Sources */,
+				4F1EA7E225BE42D100891688 /* SignUpScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +578,7 @@
 		};
 		4F831FD6256B750B0070AFCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3F96D549FD7BECD100480EF /* Pods-DecoratAR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,6 +600,7 @@
 		};
 		4F831FD7256B750B0070AFCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DFF188DF9F8955519C8D363 /* Pods-DecoratAR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +622,7 @@
 		};
 		4F831FD9256B750B0070AFCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D3242ACCDB0B0165C5A4ECB /* Pods-DecoratARTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +645,7 @@
 		};
 		4F831FDA256B750B0070AFCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D07053BA5F206DDF08FD25D /* Pods-DecoratARTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +668,7 @@
 		};
 		4F831FDC256B750B0070AFCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F80940D09AEB05D9CA7B9A8C /* Pods-DecoratAR-DecoratARUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -524,6 +689,7 @@
 		};
 		4F831FDD256B750B0070AFCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F897DFCB6FF7F14E764EA898 /* Pods-DecoratAR-DecoratARUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
