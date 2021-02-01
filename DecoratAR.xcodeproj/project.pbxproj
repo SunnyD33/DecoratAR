@@ -202,6 +202,8 @@
 				7D07053BA5F206DDF08FD25D /* Pods-DecoratARTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
 		4FAA57C425ABE6560025F2E3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -392,9 +394,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DecoratAR/Pods-DecoratAR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DecoratAR/Pods-DecoratAR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -431,9 +437,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DecoratAR-DecoratARUITests/Pods-DecoratAR-DecoratARUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DecoratAR-DecoratARUITests/Pods-DecoratAR-DecoratARUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -819,6 +829,7 @@
 			productName = FocusEntity;
 		};
 /* End XCSwiftPackageProductDependency section */
+
 	};
 	rootObject = 4F831FA6256B750A0070AFCA /* Project object */;
 }
