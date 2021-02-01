@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+
 struct SignUpScreen: View {
     @State var firstName = ""
     @State var lastName = ""

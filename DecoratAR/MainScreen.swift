@@ -10,7 +10,7 @@ import RealityKit
 import ARKit
 import FocusEntity
 
-struct ContentView : View {
+struct MainScreen : View {
     @State private var isPlacemenEnabled = false
     @State private var modelSelected: Model?
     @State private var modelPlacementConfirmed: Model?
@@ -226,7 +226,7 @@ struct PlacementButtonsView: View {
 #if DEBUG
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainScreen()
     }
 }
 #endif

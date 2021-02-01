@@ -11,6 +11,9 @@ struct LoginScreen: View {
     @State var userEmail = ""
     @State var userPassword = ""
     @State var showSignUpScreen = false
+    @State var showMainScreen = false
+    
+    var mainScreen = MainScreen()
     
     var body: some View{
         VStack(spacing: 15) {
@@ -41,7 +44,13 @@ struct LoginScreen: View {
             .background(Color.white)
             .cornerRadius(8)
             .padding(.horizontal, 150)
-            Button(action:{}) {
+            Button(action:{
+                Auth.auth().signIn(withEmail: self.userEmail, password: self.userPassword, completion: {(result, err) in
+                    if err != nil {
+                        self.showMainScreen.toggle()
+                    }
+                })
+            }) {
                 Text("Sign In")
                     .foregroundColor(.white)
                     .font(.system(size: 24, weight: .medium))
